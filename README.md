@@ -1,0 +1,2 @@
+# quarkus-hello
+test project
