@@ -33,6 +33,7 @@ jobs:
       run: |
         pwd             
         cd ..
+        mkdir hello
         cd hello
         pwd  
         
