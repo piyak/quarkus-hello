@@ -15,7 +15,6 @@ class GreetingResourceTest {
           .then()
              .statusCode(200)
              .body(is("Hello RESTEasy"));
-        
     }
 
 }
