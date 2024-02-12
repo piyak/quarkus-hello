@@ -34,7 +34,7 @@ jobs:
         cache: maven
 
     - name: Download dependencies
-      run: ./mvnw dependency:resolve
+      run: mvn dependency:resolve
         
     - name: Build with Maven
       run: mvn -B --file pom.xml clean package
