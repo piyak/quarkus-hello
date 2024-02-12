@@ -32,7 +32,6 @@ jobs:
     - name: Experiment
       run: |
         pwd
-        mkdir hello
         cd hello
         pwd  
         
