@@ -37,7 +37,7 @@ jobs:
       run: mvn dependency:resolve
         
     - name: Build with Maven
-      run: mvn -B --file pom.xml clean package
+      run: mvn -ntp -B clean package
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
