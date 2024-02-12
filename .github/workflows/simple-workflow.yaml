@@ -11,6 +11,9 @@ name: Java CI with Maven
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - .github/workflows/simple-workflow.yml
+      - hello/**
   pull_request:
     branches: [ "main" ]
 
